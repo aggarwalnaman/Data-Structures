@@ -50,8 +50,8 @@ public class level_order_binary_traversal
         tree.left = new node(2); 
         tree.right = new node(3); 
         tree.left.left = new node(4); 
-        //tree.left.right = new node(5);
-        //tree.right.left = new node(6); 
+        tree.left.right = new node(5);
+        tree.right.left = new node(6); 
         tree.right.right = new node(7);
         levelOrder(tree);
     }
