@@ -65,7 +65,7 @@ public class queueUsingLinkedList
         for(int i=0;i<n;i++){
             System.out.println((q.pop()));
         }
-        
+        in.close();
     }
 }
 
